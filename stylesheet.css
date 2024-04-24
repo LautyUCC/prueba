@@ -1,0 +1,46 @@
+{
+    margin: 0; /* Establece el margen exterior en 0 */
+    padding: 0; /* Establece el relleno interior en 0 */
+    box-sizing: border-box; /* Utiliza el modelo de caja de borde */
+    font-family: 'Poppins', sans-serif; /* Establece la fuente del texto como 'Poppins' o una fuente sans-serif */
+}
+
+body {
+    color: #ededed; /* Establece el color del texto en #ededed */
+}
+
+.header {
+    position: fixed; /* Establece la posición fija */
+    top: 0; /* Establece la posición superior en 0 */
+    left: 0; /* Establece la posición izquierda en 0 */
+    width: 100%; /* Establece el ancho en 100% */
+    padding: 20px 10%; /* Establece el relleno de 20px en la parte superior e inferior y 10% en los lados izquierdo y derecho */
+    background: transparent; /* Establece el fondo como transparente */
+    display: flex; /* Establece el contenedor como flex */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos del contenedor */
+    align-items: center; /* Centra los elementos verticalmente en el contenedor */
+    z-index: 100; /* Establece el índice Z en 100 para que se muestre por encima de otros elementos */
+}
+
+.logo {
+    position: relative; /* Establece la posición relativa */
+    font-size: 25px; /* Establece el tamaño de fuente en 25px */
+    color: #fff; /* Establece el color del texto en #fff (blanco) */
+    text-decoration: none; /* Elimina la decoración de texto (por defecto, subrayado) */
+    font-weight: 600; /* Establece el grosor de la fuente en 600 (negrita) */
+}
+
+.navbar a{
+    display: inline-block; /* Establece el elemento como en línea y en bloque */
+    font-size: 25px; /* Establece el tamaño de fuente en 25px */
+    color: #fff; /* Establece el color del texto en #fff (blanco) */
+    text-decoration: none; /* Elimina la decoración de texto (por defecto, subrayado) */
+    font-weight: 500; /* Establece el grosor de la fuente en 500 (medio) */
+    margin-left: 35px; /* Establece un margen izquierdo de 35px */
+    transition: .3s; /* Establece una transición de 0.3 segundos para los cambios de estilo */
+}
+
+.navbar a:hover {
+    color: #0ef; /* Cambia el color del texto a #f1c40f (amarillo) al pasar el ratón por encima */
+
+}
